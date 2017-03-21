@@ -27,7 +27,7 @@
 
 + (UIImage *)imagesNamedFromCustomBundle:(NSString *)imgName
 {
-    NSString *bundlePath = [[[NSBundle mainBundle] resourcePath] stringByAppendingPathComponent:@"Frameworks/MTSetting.framework"];
+    NSString *bundlePath = [[[NSBundle mainBundle] resourcePath] stringByAppendingPathComponent:@"Settings.bundle"];
     
     NSString *img_path = [bundlePath stringByAppendingPathComponent:imgName];
     
