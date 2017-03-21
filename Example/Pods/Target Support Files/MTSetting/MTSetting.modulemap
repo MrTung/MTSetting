@@ -1,0 +1,6 @@
+framework module MTSetting {
+  umbrella header "MTSetting-umbrella.h"
+
+  export *
+  module * { export * }
+}

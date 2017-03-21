@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		019A52471E80BF3C004E244C /* DemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 019A52461E80BF3C004E244C /* DemoViewController.m */; };
 		425FC727DF7D52CCCC701A88 /* Pods_MTSetting_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55D95D2B279CA3D827CB19D8 /* Pods_MTSetting_Example.framework */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
@@ -37,11 +38,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		019A52451E80BF3C004E244C /* DemoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoViewController.h; sourceTree = "<group>"; };
+		019A52461E80BF3C004E244C /* DemoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoViewController.m; sourceTree = "<group>"; };
 		2110541145DCFFC367C8113A /* Pods_MTSetting_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MTSetting_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		280DF9B0477CA5E7E69B801F /* Pods-MTSetting_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MTSetting_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MTSetting_Tests/Pods-MTSetting_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		55D95D2B279CA3D827CB19D8 /* Pods_MTSetting_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MTSetting_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		595AE1FA9667CDBF752DC50D /* Pods-MTSetting_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MTSetting_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-MTSetting_Example/Pods-MTSetting_Example.release.xcconfig"; sourceTree = "<group>"; };
-		5EB5049837338A77ECE2E26E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		5EB5049837338A77ECE2E26E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* MTSetting_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MTSetting_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -62,11 +65,11 @@
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		85CF0B59E6DE99DFE47284E7 /* MTSetting.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = MTSetting.podspec; path = ../MTSetting.podspec; sourceTree = "<group>"; };
+		85CF0B59E6DE99DFE47284E7 /* MTSetting.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = MTSetting.podspec; path = ../MTSetting.podspec; sourceTree = "<group>"; };
 		863ED8F7C37DA20AF4EFDF53 /* Pods-MTSetting_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MTSetting_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MTSetting_Tests/Pods-MTSetting_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B657A9972CF008ED6415895F /* Pods-MTSetting_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MTSetting_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MTSetting_Example/Pods-MTSetting_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		FF900DABC5C87B99669FFF17 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		FF900DABC5C87B99669FFF17 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -143,6 +146,8 @@
 		6003F593195388D20070C39A /* Example for MTSetting */ = {
 			isa = PBXGroup;
 			children = (
+				019A52451E80BF3C004E244C /* DemoViewController.h */,
+				019A52461E80BF3C004E244C /* DemoViewController.m */,
 				6003F59C195388D20070C39A /* MTAppDelegate.h */,
 				6003F59D195388D20070C39A /* MTAppDelegate.m */,
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
@@ -251,6 +256,7 @@
 				ORGANIZATIONNAME = "287178790@qq.com";
 				TargetAttributes = {
 					6003F5AD195388D20070C39A = {
+						LastSwiftMigration = 0820;
 						TestTargetID = 6003F589195388D20070C39A;
 					};
 				};
@@ -397,6 +403,7 @@
 				6003F59E195388D20070C39A /* MTAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* MTViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
+				019A52471E80BF3C004E244C /* DemoViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -568,6 +575,7 @@
 				INFOPLIST_FILE = "Tests/Tests-Info.plist";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MTSetting_Example.app/MTSetting_Example";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -588,6 +596,7 @@
 				INFOPLIST_FILE = "Tests/Tests-Info.plist";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MTSetting_Example.app/MTSetting_Example";
 				WRAPPER_EXTENSION = xctest;
 			};

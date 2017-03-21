@@ -7,6 +7,7 @@
 //
 
 #import "MTViewController.h"
+#import "DemoViewController.h"
 
 @interface MTViewController ()
 
@@ -17,13 +18,19 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+    UIButton *btn = [UIButton buttonWithType:UIButtonTypeCustom];
+    btn.frame = CGRectMake(100, 100, 100, 100);
+    [btn addTarget:self action:@selector(clickHandler) forControlEvents:UIControlEventTouchUpInside];
+    [btn setTitle:@"PUSH" forState:UIControlStateNormal];
+    [btn setTitleColor:[UIColor blackColor] forState:UIControlStateNormal];
+    [self.view addSubview:btn];
 }
 
-- (void)didReceiveMemoryWarning
-{
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+- (void)clickHandler {
+    DemoViewController *vc = [[DemoViewController alloc] init];
+    UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:vc];
+    vc.title = @"Setting Demo";
+    [self presentViewController:nav animated:YES completion:nil];
 }
 
 @end

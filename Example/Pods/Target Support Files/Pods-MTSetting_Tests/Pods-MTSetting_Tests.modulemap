@@ -1,0 +1,6 @@
+framework module Pods_MTSetting_Tests {
+  umbrella header "Pods-MTSetting_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
