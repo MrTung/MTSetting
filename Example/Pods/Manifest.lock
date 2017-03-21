@@ -4,20 +4,20 @@ PODS:
   - FBSnapshotTestCase/Core (2.1.4)
   - FBSnapshotTestCase/SwiftSupport (2.1.4):
     - FBSnapshotTestCase/Core
-  - MTSetting (0.1.0)
+  - MTSetting (1.0.0)
 
 DEPENDENCIES:
   - FBSnapshotTestCase
-  - MTSetting (from `../`)
+  - MTSetting (from `../MTSetting.podspec`)
 
 EXTERNAL SOURCES:
   MTSetting:
-    :path: "../"
+    :podspec: "../MTSetting.podspec"
 
 SPEC CHECKSUMS:
   FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
-  MTSetting: 0e44403b89bee1cfa068c5d0fd13955207a1fd47
+  MTSetting: 2d140ee15855ec0b33ea81a35c010e0022665484
 
-PODFILE CHECKSUM: b6dd21ca9ddb07da45bf120b3f815b1c25f3f7bb
+PODFILE CHECKSUM: 96b05246ab75ea7d0629026b2ac42b7001dd6837
 
 COCOAPODS: 1.2.0

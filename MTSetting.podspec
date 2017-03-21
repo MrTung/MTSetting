@@ -1,42 +1,22 @@
-#
-# Be sure to run `pod lib lint MTSetting.podspec' to ensure this is a
-# valid spec before submitting.
-#
-# Any lines starting with a # are optional, but their use is encouraged
-# To learn more about a Podspec see http://guides.cocoapods.org/syntax/podspec.html
-#
+
 
 Pod::Spec.new do |s|
   s.name             = 'MTSetting'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of MTSetting.'
-
-# This description is used to generate tags and improve search results.
-#   * Think: What does it do? Why did you write it? What is the focus?
-#   * Try to keep it short, snappy and to the point.
-#   * Write the description between the DESC delimiters below.
-#   * Finally, don't worry about the indent, CocoaPods strips it!
+  s.version          = '1.0.0'
+  s.summary          = '设置界面、个人中心界面快捷搭建.'
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+设置界面、个人中心界面快捷搭建，多种类型可供选择
                        DESC
-
-  s.homepage         = 'https://github.com/287178790@qq.com/MTSetting'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
+  s.homepage         = 'https://github.com/MrTung/MTSetting'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { '287178790@qq.com' => '287178790@qq.com' }
-  s.source           = { :git => 'https://github.com/287178790@qq.com/MTSetting.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.author           = { 'MrTung' => '287178790@qq.com' }
+  s.source           = { :git => 'https://github.com/MrTung/MTSetting.git', :tag => "1.0.0" }
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '7.0'
 
-  s.source_files = 'MTSetting/Classes/**/*'
-  
-  # s.resource_bundles = {
-  #   'MTSetting' => ['MTSetting/Assets/*.png']
-  # }
+  #s.source_files = 'MTSetting/Classes/**
+  s.source_files = 'MTSetting/Classes/Cateogrys/*.{h,m}','MTSetting/Classes/Classes/*.{h,m}',
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.resources    = 'MTSetting/Classes/Settings.bundle'  
 end

@@ -1,7 +1,8 @@
 use_frameworks!
 
 target 'MTSetting_Example' do
-  pod 'MTSetting', :path => '../'
+    #pod 'MTSetting', :path => '../'
+  pod 'MTSetting', :podspec => '../MTSetting.podspec'
 
   target 'MTSetting_Tests' do
     inherit! :search_paths

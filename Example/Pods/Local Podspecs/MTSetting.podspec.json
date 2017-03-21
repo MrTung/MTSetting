@@ -1,22 +1,27 @@
 {
   "name": "MTSetting",
-  "version": "0.1.0",
-  "summary": "A short description of MTSetting.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/287178790@qq.com/MTSetting",
+  "version": "1.0.0",
+  "summary": "设置界面、个人中心界面快捷搭建.",
+  "description": "设置界面、个人中心界面快捷搭建，多种类型可供选择",
+  "homepage": "https://github.com/MrTung/MTSetting",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
   },
   "authors": {
-    "287178790@qq.com": "287178790@qq.com"
+    "MrTung": "287178790@qq.com"
   },
   "source": {
-    "git": "https://github.com/287178790@qq.com/MTSetting.git",
-    "tag": "0.1.0"
+    "git": "https://github.com/MrTung/MTSetting.git",
+    "tag": "1.0.0"
   },
   "platforms": {
-    "ios": "8.0"
+    "ios": "7.0"
   },
-  "source_files": "MTSetting/Classes/**/*"
+  "resources": "MTSetting/Classes/Settings.bundle",
+  "source_files": [
+    "MTSetting/Classes/Cateogrys/*.{h,m}",
+    "MTSetting/Classes/Classes/*.{h,m}",
+    "MTSetting/Classes/Settings.bundle"
+  ]
 }
