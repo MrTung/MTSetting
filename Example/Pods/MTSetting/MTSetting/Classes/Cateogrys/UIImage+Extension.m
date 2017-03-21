@@ -32,6 +32,7 @@
     NSString *img_path = [bundlePath stringByAppendingPathComponent:imgName];
     
     return [UIImage imageWithContentsOfFile:img_path];
+    
 }
 
 + (UIImage *)resizedImage:(NSString *)name

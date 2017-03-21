@@ -4,7 +4,7 @@ PODS:
   - FBSnapshotTestCase/Core (2.1.4)
   - FBSnapshotTestCase/SwiftSupport (2.1.4):
     - FBSnapshotTestCase/Core
-  - MTSetting (1.0.0)
+  - MTSetting (1.0.1)
 
 DEPENDENCIES:
   - FBSnapshotTestCase
@@ -16,7 +16,7 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
-  MTSetting: 2d140ee15855ec0b33ea81a35c010e0022665484
+  MTSetting: 927dbea730dce1cd02ed295ee411869103cdbc4d
 
 PODFILE CHECKSUM: 96b05246ab75ea7d0629026b2ac42b7001dd6837
 
