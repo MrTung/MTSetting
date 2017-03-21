@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'MTSetting_Example' do
+  pod 'MTSetting', :path => '../'
+
+  target 'MTSetting_Tests' do
+    inherit! :search_paths
+
+    pod 'FBSnapshotTestCase'
+  end
+end
