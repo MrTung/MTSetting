@@ -68,9 +68,9 @@
         hitem.rightText.clearButtonMode = UITextFieldViewModeAlways;
         hitem.rightText.adjustsFontSizeToFitWidth = YES;
         hitem.rightText.placeholder = hitem.placeholder;
-        hitem.rightText.text = hitem.textValue;
         self.rightText = hitem.rightText;
     }
+    hitem.rightText.text = hitem.textValue;
     return _rightText;
 }
 
@@ -99,13 +99,13 @@
     MTCommonCheckItem *hitem = (MTCommonCheckItem *)_item;
     if (_checkBtn == nil) {
         hitem.checkView = [UIButton buttonWithType:UIButtonTypeCustom];
-        hitem.checkView.selected = hitem.isChecked;
         [hitem.checkView setBackgroundImage:[UIImage imagesNamedFromCustomBundle:@"Selected"] forState:UIControlStateSelected];
         [hitem.checkView setBackgroundImage:[UIImage imagesNamedFromCustomBundle:@"UnSelected"] forState:UIControlStateNormal];
         [hitem.checkView addTarget:self action:@selector(checkHandler:) forControlEvents:UIControlEventTouchUpInside];
         hitem.checkView.size = hitem.checkView.currentBackgroundImage.size;
         _checkBtn = hitem.checkView;
     }
+    hitem.checkView.selected = hitem.isChecked;
     return _checkBtn;
 }
 
