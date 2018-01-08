@@ -27,3 +27,6 @@ pod "MTSetting"
 ## License
 
 MTSetting is available under the MIT license. See the LICENSE file for more info.
+
+## View
+![image](https://github.com/MrTung/MTSetting/blob/master/Example/MTSetting/ScreenShots/E8639A3F-2F0B-45C2-8551-CB7AD0EE3D12.png?raw=true)
