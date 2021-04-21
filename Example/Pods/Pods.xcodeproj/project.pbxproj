@@ -13,7 +13,7 @@
 		094973D2D2F1E3B2E772F93C8147C6B9 /* UIApplication+StrictKeyWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CD58EF9FBABA588639CF372F96A96A7 /* UIApplication+StrictKeyWindow.m */; };
 		0B8DBAB184BB7E8E1D9C5E3386A8DEDB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA75099E263FEEEAC4EABC8DDDC7FEE0 /* Foundation.framework */; };
 		12261C0AFB2A8ED3D49AF69687B8EFC5 /* MTCommonArrowItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C52C80F8C5598818A43CC89179E989D /* MTCommonArrowItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		13880B9D165BAFD56954C053B438359D /* UIView+Extension.h in Headers */ = {isa = PBXBuildFile; fileRef = 9418CFFF746209A8DAC8640435F1E22F /* UIView+Extension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		13880B9D165BAFD56954C053B438359D /* UIView+MTExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 9418CFFF746209A8DAC8640435F1E22F /* UIView+MTExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		13F53D785CBE552C7610AD8A342810E9 /* MTCommonButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 7079C55A4639DC3DF791AB0D7129BA39 /* MTCommonButtonItem.m */; };
 		1AB7934C16CE49DE196FFC7BE7278287 /* SwiftSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B83A4D9F3940929BB0A28CE4CAF409A /* SwiftSupport.swift */; };
 		1C31267835752704B1C85CFCFB10FBBD /* Pods-MTSetting_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D1635C00B03C758046D629F9722689C /* Pods-MTSetting_Example-dummy.m */; };
@@ -29,7 +29,7 @@
 		457F623E69B4E8FB45F9464629917B99 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA75099E263FEEEAC4EABC8DDDC7FEE0 /* Foundation.framework */; };
 		46063F2BFCD750B410E2F1668FDD4B32 /* MTSetting-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CCD8B613ED848632B333C5BC0BD411B /* MTSetting-dummy.m */; };
 		47D8698C670E3378CDF6AB80B550707B /* MTCommonButtonItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 5EBC446FB01EDE027CE6DDF845912E4F /* MTCommonButtonItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		49FAE4657A6BDB8E04C850EC7BBE035B /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 41945399AC42FECDD4B3BDC0F2775ED8 /* UIView+Extension.m */; };
+		49FAE4657A6BDB8E04C850EC7BBE035B /* UIView+MTExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 41945399AC42FECDD4B3BDC0F2775ED8 /* UIView+MTExtension.m */; };
 		506D761F91EC3583789A837C559972FE /* FBSnapshotTestCase-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4570E69B977079C7EA0CAF2FBF01EF0B /* FBSnapshotTestCase-dummy.m */; };
 		588D58484CDEC224CFE0999490E7BD24 /* Pods-MTSetting_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 640D76AEADE3E698AC3316BE68EDE0C8 /* Pods-MTSetting_Tests-dummy.m */; };
 		5EF7437D0247B2529D4FF2935A8135FC /* MTBadgeView.h in Headers */ = {isa = PBXBuildFile; fileRef = 575AC64BFAF17F29F61DD1030515CFB2 /* MTBadgeView.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -43,12 +43,12 @@
 		756564ABAF2892FE7140C92A1CDDCF65 /* UIImage+Snapshot.m in Sources */ = {isa = PBXBuildFile; fileRef = A3C25F306C48B74B591051375627DEC7 /* UIImage+Snapshot.m */; };
 		75B78F6F1115EC13F23A3FA3A2922A3C /* MTBadgeView.m in Sources */ = {isa = PBXBuildFile; fileRef = B9A06F701842C2BEAF449F5804341EBC /* MTBadgeView.m */; };
 		7A6DC258C9928D8109F18568F48B2ACB /* MTSetting-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 67B9A49A6C3E5E9228FDA87656DAC9CC /* MTSetting-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7B92AD92F6F3DFB3B79FA12322647DEE /* UIImage+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F15C0192F434832DA4EA4626BA760F7 /* UIImage+Extension.m */; };
+		7B92AD92F6F3DFB3B79FA12322647DEE /* UIImage+MTExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F15C0192F434832DA4EA4626BA760F7 /* UIImage+MTExtension.m */; };
 		9673CF780F48C8E4EC2A331717B1F67C /* FBSnapshotTestCase.h in Headers */ = {isa = PBXBuildFile; fileRef = FEA31A920583A4AA226B40A104EEEF8A /* FBSnapshotTestCase.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A019A680FF85797B70CC8E3B1143D7F4 /* MTCommonItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 2469B2970A4932517C01773AA585BC18 /* MTCommonItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A4F69F3477A935285620AC3031C5C848 /* FBSnapshotTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = CA91CF26E1C2ACF05772736E9456626E /* FBSnapshotTestController.m */; };
 		A58D18555CF356331DB303ABBD95F6B8 /* MTCommonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 574C7F75A8B3BE897298A494A03344F3 /* MTCommonViewController.m */; };
-		A9C9C1E926224867EA65436AD4C41FFD /* UIImage+Extension.h in Headers */ = {isa = PBXBuildFile; fileRef = DD7714258519FA04017076CBB3E84874 /* UIImage+Extension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A9C9C1E926224867EA65436AD4C41FFD /* UIImage+MTExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = DD7714258519FA04017076CBB3E84874 /* UIImage+MTExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B4D845CA12612D2B4E9B0646EF274586 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA75099E263FEEEAC4EABC8DDDC7FEE0 /* Foundation.framework */; };
 		B758FB09FE2C06C1B8E36A71A9D76D41 /* FBSnapshotTestCase-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 128948AA02A16520AB7EA08AD9B943C4 /* FBSnapshotTestCase-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B927555604EB639DF06F7E365919689A /* MTCommonCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BEB27F7BE2C7DBD5B67518ECC5B72F54 /* MTCommonCell.m */; };
@@ -107,7 +107,7 @@
 		3C32099E0A716483F90035D502A494AC /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		3CC77813454CC04A2B11AE30793E8F4E /* FBSnapshotTestCase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FBSnapshotTestCase.framework; path = FBSnapshotTestCase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		41342C8431DAAFD900CDBA3C3B840CBB /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
-		41945399AC42FECDD4B3BDC0F2775ED8 /* UIView+Extension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+Extension.m"; path = "MTSetting/Classes/Cateogrys/UIView+Extension.m"; sourceTree = "<group>"; };
+		41945399AC42FECDD4B3BDC0F2775ED8 /* UIView+MTExtension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+MTExtension.m"; path = "MTSetting/Classes/Cateogrys/UIView+MTExtension.m"; sourceTree = "<group>"; };
 		4570E69B977079C7EA0CAF2FBF01EF0B /* FBSnapshotTestCase-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FBSnapshotTestCase-dummy.m"; sourceTree = "<group>"; };
 		45C02396B40273CDE5673EC8448D5DBF /* MTCommonSwitchItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MTCommonSwitchItem.h; path = MTSetting/Classes/Classes/MTCommonSwitchItem.h; sourceTree = "<group>"; };
 		4630FCF9731AE1C57C589AC3C2B6F065 /* Pods-MTSetting_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MTSetting_Tests-resources.sh"; sourceTree = "<group>"; };
@@ -142,9 +142,9 @@
 		8A80A1D4B5F04F83B297AF8C3BAD5838 /* FBSnapshotTestCase-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-prefix.pch"; sourceTree = "<group>"; };
 		8C3E89E3447570D1CD5C4FFDDD834CA2 /* Pods-MTSetting_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MTSetting_Tests-umbrella.h"; sourceTree = "<group>"; };
 		8C9622E6233525BFCAEAED7505A19F52 /* MTCommonSwitchItem.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MTCommonSwitchItem.m; path = MTSetting/Classes/Classes/MTCommonSwitchItem.m; sourceTree = "<group>"; };
-		8F15C0192F434832DA4EA4626BA760F7 /* UIImage+Extension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Extension.m"; path = "MTSetting/Classes/Cateogrys/UIImage+Extension.m"; sourceTree = "<group>"; };
+		8F15C0192F434832DA4EA4626BA760F7 /* UIImage+MTExtension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+MTExtension.m"; path = "MTSetting/Classes/Cateogrys/UIImage+MTExtension.m"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9418CFFF746209A8DAC8640435F1E22F /* UIView+Extension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+Extension.h"; path = "MTSetting/Classes/Cateogrys/UIView+Extension.h"; sourceTree = "<group>"; };
+		9418CFFF746209A8DAC8640435F1E22F /* UIView+MTExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+MTExtension.h"; path = "MTSetting/Classes/Cateogrys/UIView+MTExtension.h"; sourceTree = "<group>"; };
 		9EFAE8C47D769FFA6F5B96B688B34C95 /* Pods_MTSetting_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MTSetting_Example.framework; path = "Pods-MTSetting_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A00AE304DA6346A6E4D46E54A536E530 /* FBSnapshotTestCase.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = FBSnapshotTestCase.modulemap; sourceTree = "<group>"; };
 		A156AC43922A721F0344942676BF8E5B /* UIImage+Compare.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Compare.m"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.m"; sourceTree = "<group>"; };
@@ -164,7 +164,7 @@
 		D71E811CC58D47802DBF01E351E0B1EC /* MTSetting.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MTSetting.framework; path = MTSetting.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA75099E263FEEEAC4EABC8DDDC7FEE0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		DD63EB75D79D54A26561D52AC6FC6454 /* MTCommonLabelItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MTCommonLabelItem.h; path = MTSetting/Classes/Classes/MTCommonLabelItem.h; sourceTree = "<group>"; };
-		DD7714258519FA04017076CBB3E84874 /* UIImage+Extension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Extension.h"; path = "MTSetting/Classes/Cateogrys/UIImage+Extension.h"; sourceTree = "<group>"; };
+		DD7714258519FA04017076CBB3E84874 /* UIImage+MTExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+MTExtension.h"; path = "MTSetting/Classes/Cateogrys/UIImage+MTExtension.h"; sourceTree = "<group>"; };
 		DD8755E374DB0B3D28F5926DE4F21847 /* MTCommonItem.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MTCommonItem.m; path = MTSetting/Classes/Classes/MTCommonItem.m; sourceTree = "<group>"; };
 		E8C999614EE62119BA3BACBB0703EDFB /* FBSnapshotTestCase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCase.m; path = FBSnapshotTestCase/FBSnapshotTestCase.m; sourceTree = "<group>"; };
 		F654809DEFE3891E751B4B545BC1BE72 /* Pods_MTSetting_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MTSetting_Tests.framework; path = "Pods-MTSetting_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -282,10 +282,10 @@
 				D1380508A0CA415F915581DA84201E89 /* MTCommonViewController.h */,
 				574C7F75A8B3BE897298A494A03344F3 /* MTCommonViewController.m */,
 				49038E9217A0D7F5BDECC9CDA5D2D519 /* MTSeting.h */,
-				DD7714258519FA04017076CBB3E84874 /* UIImage+Extension.h */,
-				8F15C0192F434832DA4EA4626BA760F7 /* UIImage+Extension.m */,
-				9418CFFF746209A8DAC8640435F1E22F /* UIView+Extension.h */,
-				41945399AC42FECDD4B3BDC0F2775ED8 /* UIView+Extension.m */,
+				DD7714258519FA04017076CBB3E84874 /* UIImage+MTExtension.h */,
+				8F15C0192F434832DA4EA4626BA760F7 /* UIImage+MTExtension.m */,
+				9418CFFF746209A8DAC8640435F1E22F /* UIView+MTExtension.h */,
+				41945399AC42FECDD4B3BDC0F2775ED8 /* UIView+MTExtension.m */,
 				B057A7C9131AA872A3C19286C6B72A60 /* Resources */,
 				B7282B4896DA47CE9AEC8B237E1B99F3 /* Support Files */,
 			);
@@ -445,8 +445,8 @@
 				D2AC5D3AC7EDF950DA3001B89E7BA4C3 /* MTCommonViewController.h in Headers */,
 				C949CD5072510E96C5088ACFA9660D09 /* MTSeting.h in Headers */,
 				7A6DC258C9928D8109F18568F48B2ACB /* MTSetting-umbrella.h in Headers */,
-				A9C9C1E926224867EA65436AD4C41FFD /* UIImage+Extension.h in Headers */,
-				13880B9D165BAFD56954C053B438359D /* UIView+Extension.h in Headers */,
+				A9C9C1E926224867EA65436AD4C41FFD /* UIImage+MTExtension.h in Headers */,
+				13880B9D165BAFD56954C053B438359D /* UIView+MTExtension.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -613,8 +613,8 @@
 				D5BC16DB0F1713C36E6AAE8A6B135977 /* MTCommonTextfieldItem.m in Sources */,
 				A58D18555CF356331DB303ABBD95F6B8 /* MTCommonViewController.m in Sources */,
 				46063F2BFCD750B410E2F1668FDD4B32 /* MTSetting-dummy.m in Sources */,
-				7B92AD92F6F3DFB3B79FA12322647DEE /* UIImage+Extension.m in Sources */,
-				49FAE4657A6BDB8E04C850EC7BBE035B /* UIView+Extension.m in Sources */,
+				7B92AD92F6F3DFB3B79FA12322647DEE /* UIImage+MTExtension.m in Sources */,
+				49FAE4657A6BDB8E04C850EC7BBE035B /* UIView+MTExtension.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

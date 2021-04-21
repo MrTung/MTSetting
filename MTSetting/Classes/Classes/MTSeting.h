@@ -14,10 +14,10 @@
 
 #define MTViewH self.view.height
 //导航栏背景色
-#define MTNavgationBackgroundColor [UIColor colorWithRed:12/255.0 green:167/255.0 blue:161/255.0 alpha:1.0]
+#define MTNavgationBackgroundColor [UIColor colorWithRed:12 / 255.0 green:167 / 255.0 blue:161 / 255.0 alpha:1.0]
 
 // 颜色
-#define MTColor(r, g, b) [UIColor colorWithRed:(r)/255.0 green:(g)/255.0 blue:(b)/255.0 alpha:1.0]
+#define MTColor(r, g, b) [UIColor colorWithRed:(r) / 255.0 green:(g) / 255.0 blue:(b) / 255.0 alpha:1.0]
 
 // 全局背景色
 #define MTGlobalBg MTColor(235, 235, 235)
@@ -45,6 +45,6 @@
 #import "MTCommonTextfieldItem.h"
 #import "MTCommonViewController.h"
 
-#import "UIImage+Extension.h"
-#import "UIView+Extension.h"
+#import "UIImage+MTExtension.h"
+#import "UIView+MTExtension.h"
 #endif /* MTSeting_h */

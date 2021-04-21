@@ -1,14 +1,14 @@
 //
-//  UIView+Extension.m
+//  UIView+MTExtension.m
 //  01-黑酷
 //
 //  Created by 董徐维 on 14-6-27.
 //  Copyright © 2017年 Mr.Tung. All rights reserved.
 //
 
-#import "UIView+Extension.h"
+#import "UIView+MTExtension.h"
 
-@implementation UIView (Extension)
+@implementation UIView (MTExtension)
 
 - (void)setX:(CGFloat)x
 {

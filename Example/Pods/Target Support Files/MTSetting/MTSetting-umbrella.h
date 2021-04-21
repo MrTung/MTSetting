@@ -10,8 +10,8 @@
 #endif
 #endif
 
-#import "UIImage+Extension.h"
-#import "UIView+Extension.h"
+#import "UIImage+MTExtension.h"
+#import "UIView+MTExtension.h"
 #import "MTBadgeView.h"
 #import "MTCommonArrowItem.h"
 #import "MTCommonButtonItem.h"
@@ -28,4 +28,3 @@
 
 FOUNDATION_EXPORT double MTSettingVersionNumber;
 FOUNDATION_EXPORT const unsigned char MTSettingVersionString[];
-

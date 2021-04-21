@@ -6,8 +6,8 @@
 //
 
 #import "MTBadgeView.h"
-#import "UIImage+Extension.h"
-#import "UIView+Extension.h"
+#import "UIImage+MTExtension.h"
+#import "UIView+MTExtension.h"
 
 @implementation MTBadgeView
 

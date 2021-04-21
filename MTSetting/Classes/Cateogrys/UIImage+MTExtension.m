@@ -1,16 +1,16 @@
 //
-//  UIImage+Extension.m
+//  UIImage+MTExtension.m
 //
 //  Created by 董徐维 on 14-7-3.
 //  Copyright © 2017年 Mr.Tung. All rights reserved.
 //
 
-#import "UIImage+Extension.h"
+#import "UIImage+MTExtension.h"
 #import <Accelerate/Accelerate.h>
 
 // 是否为iOS7
 #define iOS7 ([[UIDevice currentDevice].systemVersion doubleValue] >= 7.0)
-@implementation UIImage (Extension)
+@implementation UIImage (MTExtension)
 + (UIImage *)imageWithName:(NSString *)name
 {
     UIImage *image = nil;

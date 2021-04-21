@@ -1,5 +1,5 @@
 //
-//  UIImage+Extension.h
+//  UIImage+MTExtension.h
 //
 //  Created by 董徐维 on 14-7-3.
 //  Copyright © 2017年 Mr.Tung. All rights reserved.
@@ -7,7 +7,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface UIImage (Extension)
+@interface UIImage (MTExtension)
 /**
  *  根据图片名自动加载适配iOS6\7的图片
  */
@@ -27,7 +27,7 @@
 /**
  *  等比例创建缩略图
 */
--(UIImage *)scaleImageToSize:(CGSize)size;
+- (UIImage *)scaleImageToSize:(CGSize)size;
 
 /**
  * 图片模糊方法
@@ -49,8 +49,6 @@
  *
  *  @return 图片data数据
  */
-+(NSData *)compressImg:(UIImage *)image;
++ (NSData *)compressImg:(UIImage *)image;
 
 @end
-
-
